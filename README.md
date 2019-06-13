@@ -1,6 +1,6 @@
 # Swagger generated server
 
-Spring Boot Server for Azure
+Spring Boot Server for Azure with Kubernetes (AKS)
 
 
 ## Overview  
