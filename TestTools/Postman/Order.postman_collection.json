@@ -1,0 +1,162 @@
+{
+	"id": "8f32b614-04b8-ac04-6a9b-331b93648167",
+	"name": "Order",
+	"description": "",
+	"order": [
+		"cff011ec-f784-f9e1-b526-425546950767",
+		"66618dd8-64e2-e7e5-7d43-91c0aef954b9",
+		"3eb30868-e87b-e0e2-4e45-4abeb1a212af",
+		"a33f8922-54a4-b07b-d18b-51389cc988fa"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1551031259492,
+	"owner": "6900712",
+	"public": false,
+	"requests": [
+		{
+			"id": "3eb30868-e87b-e0e2-4e45-4abeb1a212af",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orders/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553620935893,
+			"name": "Order",
+			"description": "",
+			"collectionId": "8f32b614-04b8-ac04-6a9b-331b93648167",
+			"responses": [],
+			"rawModeData": "{\r\n  \"customer\": {\r\n    \"Id\": 1\r\n  },\r\n  \"orderDate\": \"2019-02-25T08:21:28.680Z\",\r\n  \"status\": \"In_Progress\"\r\n}"
+		},
+		{
+			"id": "66618dd8-64e2-e7e5-7d43-91c0aef954b9",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orders",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621308259,
+			"name": "Order",
+			"description": "",
+			"collectionId": "8f32b614-04b8-ac04-6a9b-331b93648167",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"id\": 7,\r\n  \"status\": \"SHIPPED\"\r\n}"
+		},
+		{
+			"id": "a33f8922-54a4-b07b-d18b-51389cc988fa",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orders/7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621327186,
+			"name": "Order",
+			"description": "",
+			"collectionId": "8f32b614-04b8-ac04-6a9b-331b93648167",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "cff011ec-f784-f9e1-b526-425546950767",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orders",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621285082,
+			"name": "Order",
+			"description": "",
+			"collectionId": "8f32b614-04b8-ac04-6a9b-331b93648167",
+			"responses": [],
+			"rawModeData": "{\r\n  \"customer\": {\r\n    \"id\": 5\r\n  },\r\n  \"status\": \"IN_PROGRESS\"\r\n}"
+		}
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"id": "eb7d8efd-2164-df12-8881-1a2609c4a99f",
+	"name": "Customer",
+	"description": "",
+	"order": [
+		"92852a50-05fa-39f6-1683-76cd0463f46e",
+		"4d61dd05-1a38-f27b-8aaf-5d93f17ca1fc",
+		"dcc362d1-cee1-d087-4639-1a5e9eaa6e29",
+		"61549634-aede-2969-63ca-59968b424368"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1551031252289,
+	"owner": "6900712",
+	"public": false,
+	"requests": [
+		{
+			"id": "4d61dd05-1a38-f27b-8aaf-5d93f17ca1fc",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/customer",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621365551,
+			"name": "Customer",
+			"description": "",
+			"collectionId": "eb7d8efd-2164-df12-8881-1a2609c4a99f",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"id\": \"5\",\r\n  \"name\": \"Cust utt 55\"\r\n}"
+		},
+		{
+			"id": "61549634-aede-2969-63ca-59968b424368",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/customer/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621404549,
+			"name": "Customer",
+			"description": "",
+			"collectionId": "eb7d8efd-2164-df12-8881-1a2609c4a99f",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "92852a50-05fa-39f6-1683-76cd0463f46e",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/customer",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621385604,
+			"name": "Customer",
+			"description": "",
+			"collectionId": "eb7d8efd-2164-df12-8881-1a2609c4a99f",
+			"responses": [],
+			"rawModeData": "{\r\n  \"name\": \"Cust par\"\r\n}"
+		},
+		{
+			"id": "dcc362d1-cee1-d087-4639-1a5e9eaa6e29",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/customer/5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553620890380,
+			"name": "Customer",
+			"description": "",
+			"collectionId": "eb7d8efd-2164-df12-8881-1a2609c4a99f",
+			"responses": [],
+			"rawModeData": "{\r\n  \"Name\": \"Cust 2\"\r\n}"
+		}
+	]
+}

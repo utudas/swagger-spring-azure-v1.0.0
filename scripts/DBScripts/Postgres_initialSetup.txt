@@ -1,0 +1,18 @@
+
+Windows:
+1. Setup Postgresql and assign a superuser and a password.
+2. Add bin folder path of Postgresql installation to the path in Environment variable.
+3. Open a command prompt and issue below command:
+   psql -U <superUser>
+   it will prompt for password. Enter the password while setting the Postgresql.
+4. Once login, you will see postgres=#
+5. Then issue the below commands one by one:
+
+   CREATE DATABASE saprdb;
+   CREATE USER sapru WITH SUPERUSER PASSWORD 'saprp';
+   GRANT ALL PRIVILEGES ON DATABASE saprdb TO sapru;
+   ALTER DATABASE saprdb OWNER TO sapru;
+   
+   
+  Now you will be able to login with 
+  psql -d saprdb -U sapru

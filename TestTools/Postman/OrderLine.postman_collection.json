@@ -1,0 +1,162 @@
+{
+	"id": "ab9fa5f0-cd6a-bf42-f25c-7ac4e4f016b1",
+	"name": "OrderLine",
+	"description": "",
+	"order": [
+		"15a24ee0-d38d-5fc0-9aa9-b189d9d2ca5d",
+		"7e9efe36-668c-5a4b-0d74-864c879ac774",
+		"ff39f8ab-341a-294f-254e-b82852fa27d2",
+		"f48561d6-f133-0c95-a2fc-acffcf5dcf67"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1551543968239,
+	"owner": "6900712",
+	"public": false,
+	"requests": [
+		{
+			"id": "15a24ee0-d38d-5fc0-9aa9-b189d9d2ca5d",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orderLine",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621163063,
+			"name": "OrderLine",
+			"description": "",
+			"collectionId": "ab9fa5f0-cd6a-bf42-f25c-7ac4e4f016b1",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"order\": {\r\n    \"id\": 6\r\n  },\r\n  \"article\": {\r\n    \"id\": 7\r\n  },\r\n  \"quantity\": \"5\"\r\n}"
+		},
+		{
+			"id": "7e9efe36-668c-5a4b-0d74-864c879ac774",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orderLine",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621222574,
+			"name": "OrderLine",
+			"description": "",
+			"collectionId": "ab9fa5f0-cd6a-bf42-f25c-7ac4e4f016b1",
+			"responses": [],
+			"rawModeData": "{\r\n  \"id\": 5,\r\n  \"quantity\": \"1000\"\r\n}"
+		},
+		{
+			"id": "f48561d6-f133-0c95-a2fc-acffcf5dcf67",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orderLine/5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621251820,
+			"name": "OrderLine",
+			"description": "",
+			"collectionId": "ab9fa5f0-cd6a-bf42-f25c-7ac4e4f016b1",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "ff39f8ab-341a-294f-254e-b82852fa27d2",
+			"headers": "Content-Type: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/orderLine/5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621183779,
+			"name": "OrderLine",
+			"description": "",
+			"collectionId": "ab9fa5f0-cd6a-bf42-f25c-7ac4e4f016b1",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"order\": {\r\n    \"id\": 1\r\n  },\r\n  \"article\": {\r\n    \"id\": 1\r\n  },\r\n  \"quantity\": \"5\"\r\n}"
+		}
+	]
+}

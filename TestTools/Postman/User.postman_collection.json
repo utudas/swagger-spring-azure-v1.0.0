@@ -1,0 +1,76 @@
+{
+	"id": "f1e111aa-321e-a979-377c-0a18b0a551c0",
+	"name": "User",
+	"description": "",
+	"order": [
+		"63b1396b-d1f4-22a5-578e-1bb0305ce5b3",
+		"5eb3d60a-30c2-851a-ba1b-894fa17a269c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1552336206753,
+	"owner": "6900712",
+	"public": false,
+	"requests": [
+		{
+			"id": "5eb3d60a-30c2-851a-ba1b-894fa17a269c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080//Order-Management-System/v1/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "postman.clearGlobalVariable(\"jwt\");\r\npostman.setGlobalVariable(\"jwt\", postman.getResponseHeader(\"Authorization\"));",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553620965376,
+			"name": "login",
+			"description": "",
+			"collectionId": "f1e111aa-321e-a979-377c-0a18b0a551c0",
+			"responses": [],
+			"rawModeData": "{\r\n    \"username\": \"thomas\",\r\n    \"password\": \"pass\"\r\n}"
+		},
+		{
+			"id": "63b1396b-d1f4-22a5-578e-1bb0305ce5b3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/users/sign-up",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553248914443,
+			"name": "user/sign-up",
+			"description": "",
+			"collectionId": "f1e111aa-321e-a979-377c-0a18b0a551c0",
+			"responses": [],
+			"rawModeData": "{\r\n    \"username\": \"thomas\",\r\n    \"password\": \"pass\"\r\n}"
+		}
+	]
+}

@@ -1,0 +1,229 @@
+{
+	"id": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+	"name": "Article",
+	"description": "",
+	"order": [
+		"cbab362c-0bb5-fd0d-d521-0a6b925f4947",
+		"16b711bc-65ae-166e-c910-0553881950b9",
+		"bb1acafb-7987-c2a4-641d-630d439f49b6",
+		"e0963ec2-a801-274f-27e9-32e4c2079311",
+		"14ba4f92-1dc6-356e-c8ff-c101ecbffc3d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1550848721707,
+	"owner": "6900712",
+	"public": false,
+	"requests": [
+		{
+			"id": "14ba4f92-1dc6-356e-c8ff-c101ecbffc3d",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/article/10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621510075,
+			"name": "Article",
+			"description": "",
+			"collectionId": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "16b711bc-65ae-166e-c910-0553881950b9",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/article",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621493308,
+			"name": "Article",
+			"description": "",
+			"collectionId": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+			"responses": [],
+			"rawModeData": "{\r\n  \"id\": 10,\r\n  \"name\": \"Art 3 update\",\r\n  \"price\": 300,\r\n  \"type\": \"Type 3 update\"\r\n}"
+		},
+		{
+			"id": "bb1acafb-7987-c2a4-641d-630d439f49b6",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/article/10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621475360,
+			"name": "Article",
+			"description": "",
+			"collectionId": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+			"responses": [],
+			"rawModeData": "{\r\n  \"Id\": 8,\r\n  \"Name\": \"Fashion 8\",\r\n  \"Price\": 88.67,\r\n  \"Type\": \"Social 8\"\r\n}"
+		},
+		{
+			"id": "cbab362c-0bb5-fd0d-d521-0a6b925f4947",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/article",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553621002872,
+			"name": "Article",
+			"description": "",
+			"collectionId": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+			"responses": [],
+			"rawModeData": "{\r\n  \"name\": \"Article 2\",\r\n  \"type\": \"Art Type 2222\",\r\n  \"price\": 2.2222\r\n}"
+		},
+		{
+			"id": "e0963ec2-a801-274f-27e9-32e4c2079311",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: {{jwt}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{jwt}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Order-Management-System/v1/articles",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553616970528,
+			"name": "Articles",
+			"description": "",
+			"collectionId": "2b78b76b-c8cf-493c-36eb-b993a14210a6",
+			"responses": [],
+			"rawModeData": "{\r\n  \"Id\": 8,\r\n  \"Name\": \"Fashion 8\",\r\n  \"Price\": 88.67,\r\n  \"Type\": \"Social 8\"\r\n}"
+		}
+	]
+}
